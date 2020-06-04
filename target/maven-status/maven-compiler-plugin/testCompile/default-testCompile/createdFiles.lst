@@ -1,0 +1,12 @@
+com\ip\collection\CircularBufferTest.class
+com\ip\collection\SortedPairTest.class
+com\ip\collection\ArrayListExaTest.class
+com\ip\collection\ArrayListTest.class
+com\ip\collection\ProductFixtures.class
+com\ip\collection\StackTest.class
+com\ip\collection\IntArraysTest.class
+com\ip\collection\ReproduceSwapna.class
+com\ip\collection\SinglyLinkedListTest.class
+com\ip\collection\BoundedStackTest.class
+com\ip\collection\ShipmentTest.class
+com\ip\collection\GenericCircularBufferTest.class

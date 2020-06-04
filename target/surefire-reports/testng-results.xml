@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="200" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="200" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+      <class name="com.ip.collection.ArrayListExaTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ip.collection.ArrayListExaTest@39c0f4a]" name="setUp" is-config="true" duration-ms="37" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMyArray()[pri:0, instance:com.ip.collection.ArrayListExaTest@39c0f4a]" name="testMyArray" duration-ms="7" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyArray -->
+      </class> <!-- com.ip.collection.ArrayListExaTest -->
+      <class name="com.ip.collection.IntArraysTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.ip.collection.IntArraysTest@53b32d7]" name="test" duration-ms="8" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.ip.collection.IntArraysTest -->
+      <class name="com.ip.collection.ShipmentTest">
+        <test-method status="PASS" signature="shouldAddItems()[pri:0, instance:com.ip.collection.ShipmentTest@5442a311]" name="shouldAddItems" duration-ms="16" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAddItems -->
+      </class> <!-- com.ip.collection.ShipmentTest -->
+      <class name="com.ip.collection.CircularBufferTest">
+        <test-method status="PASS" signature="shouldOfferPollableElement()[pri:0, instance:com.ip.collection.CircularBufferTest@57baeedf]" name="shouldOfferPollableElement" duration-ms="1" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldOfferPollableElement -->
+      </class> <!-- com.ip.collection.CircularBufferTest -->
+      <class name="com.ip.collection.ArrayListTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ip.collection.ArrayListTest@1794d431]" name="setUp" is-config="true" duration-ms="0" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testListInit()[pri:0, instance:com.ip.collection.ArrayListTest@1794d431]" name="testListInit" duration-ms="1" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListInit -->
+        <test-method status="PASS" signature="testRemoveElement()[pri:0, instance:com.ip.collection.ArrayListTest@1794d431]" name="testRemoveElement" duration-ms="0" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveElement -->
+        <test-method status="PASS" signature="testSetElement()[pri:0, instance:com.ip.collection.ArrayListTest@1794d431]" name="testSetElement" duration-ms="1" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetElement -->
+      </class> <!-- com.ip.collection.ArrayListTest -->
+      <class name="com.ip.collection.SinglyLinkedListTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.ip.collection.SinglyLinkedListTest@548e7350]" name="test" duration-ms="3" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.ip.collection.SinglyLinkedListTest -->
+      <class name="com.ip.collection.BoundedStackTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.ip.collection.BoundedStackTest@42e26948]" name="test" duration-ms="5" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.ip.collection.BoundedStackTest -->
+      <class name="com.ip.collection.StackTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.ip.collection.StackTest@4667ae56]" name="test" duration-ms="2" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.ip.collection.StackTest -->
+      <class name="com.ip.collection.SortedPairTest">
+        <test-method status="PASS" signature="shouldFlipOrderOfMisorderedPair()[pri:0, instance:com.ip.collection.SortedPairTest@1a968a59]" name="shouldFlipOrderOfMisorderedPair" duration-ms="3" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFlipOrderOfMisorderedPair -->
+        <test-method status="PASS" signature="shouldRetainOrderOfOrderedPair()[pri:0, instance:com.ip.collection.SortedPairTest@1a968a59]" name="shouldRetainOrderOfOrderedPair" duration-ms="1" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRetainOrderOfOrderedPair -->
+      </class> <!-- com.ip.collection.SortedPairTest -->
+      <class name="com.ip.collection.GenericCircularBufferTest">
+        <test-method status="PASS" signature="shouldOfferPollableElement()[pri:0, instance:com.ip.collection.GenericCircularBufferTest@343f4d3d]" name="shouldOfferPollableElement" duration-ms="1" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldOfferPollableElement -->
+        <test-method status="PASS" signature="shouldRecycleBuffer()[pri:0, instance:com.ip.collection.GenericCircularBufferTest@343f4d3d]" name="shouldRecycleBuffer" duration-ms="1" started-at="2020-06-04T04:16:04 PDT" finished-at="2020-06-04T04:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRecycleBuffer -->
+      </class> <!-- com.ip.collection.GenericCircularBufferTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

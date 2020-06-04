@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 04 04:16:04 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (200 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ip.collection.ShipmentTest.shouldAddItems()'><b>shouldAddItems</b><br>Test class: com.ip.collection.ShipmentTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.ShipmentTest@5442a311</td></tr>
+<tr>
+<td title='com.ip.collection.SortedPairTest.shouldFlipOrderOfMisorderedPair()'><b>shouldFlipOrderOfMisorderedPair</b><br>Test class: com.ip.collection.SortedPairTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.SortedPairTest@1a968a59</td></tr>
+<tr>
+<td title='com.ip.collection.CircularBufferTest.shouldOfferPollableElement()'><b>shouldOfferPollableElement</b><br>Test class: com.ip.collection.CircularBufferTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.CircularBufferTest@57baeedf</td></tr>
+<tr>
+<td title='com.ip.collection.GenericCircularBufferTest.shouldOfferPollableElement()'><b>shouldOfferPollableElement</b><br>Test class: com.ip.collection.GenericCircularBufferTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.GenericCircularBufferTest@343f4d3d</td></tr>
+<tr>
+<td title='com.ip.collection.GenericCircularBufferTest.shouldRecycleBuffer()'><b>shouldRecycleBuffer</b><br>Test class: com.ip.collection.GenericCircularBufferTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.GenericCircularBufferTest@343f4d3d</td></tr>
+<tr>
+<td title='com.ip.collection.SortedPairTest.shouldRetainOrderOfOrderedPair()'><b>shouldRetainOrderOfOrderedPair</b><br>Test class: com.ip.collection.SortedPairTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.SortedPairTest@1a968a59</td></tr>
+<tr>
+<td title='com.ip.collection.BoundedStackTest.test()'><b>test</b><br>Test class: com.ip.collection.BoundedStackTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.BoundedStackTest@42e26948</td></tr>
+<tr>
+<td title='com.ip.collection.IntArraysTest.test()'><b>test</b><br>Test class: com.ip.collection.IntArraysTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.IntArraysTest@53b32d7</td></tr>
+<tr>
+<td title='com.ip.collection.SinglyLinkedListTest.test()'><b>test</b><br>Test class: com.ip.collection.SinglyLinkedListTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.SinglyLinkedListTest@548e7350</td></tr>
+<tr>
+<td title='com.ip.collection.StackTest.test()'><b>test</b><br>Test class: com.ip.collection.StackTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.StackTest@4667ae56</td></tr>
+<tr>
+<td title='com.ip.collection.ArrayListTest.testListInit()'><b>testListInit</b><br>Test class: com.ip.collection.ArrayListTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.ArrayListTest@1794d431</td></tr>
+<tr>
+<td title='com.ip.collection.ArrayListExaTest.testMyArray()'><b>testMyArray</b><br>Test class: com.ip.collection.ArrayListExaTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.ArrayListExaTest@39c0f4a</td></tr>
+<tr>
+<td title='com.ip.collection.ArrayListTest.testRemoveElement()'><b>testRemoveElement</b><br>Test class: com.ip.collection.ArrayListTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.ArrayListTest@1794d431</td></tr>
+<tr>
+<td title='com.ip.collection.ArrayListTest.testSetElement()'><b>testSetElement</b><br>Test class: com.ip.collection.ArrayListTest</td>
+<td></td>
+<td>0</td>
+<td>com.ip.collection.ArrayListTest@1794d431</td></tr>
+</table><p>
+</body>
+</html>
